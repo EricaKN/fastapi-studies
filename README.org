@@ -14,3 +14,5 @@ You need to run the following command inside the same folder where is your Docke
   docker build -t fastapi-helloworld .
   docker run -p 8000:8000 fastapi-helloworld
 #+end_src
+
+Everytime when you update anything in your code, it will run the github action to automatically create a new Docker image.
